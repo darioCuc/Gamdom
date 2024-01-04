@@ -6,8 +6,8 @@ To clone this repository and run the tests:
 
 1. 📋 Clone the repository: `git clone [https://github.com/darioCuc/Gamdom]` or extract it from the provided `.zip` file
 2. 📂 Navigate using terminal to the repository directory: `cd ~/Users/Gamdom`
-3. 💻 Install Playwright locally: `pnpm install playwright`
-4. 🧪 Run the tests: `npx playwright test`
+3. 💻 Install Playwright locally: `pnpm install playwright` || `npm i -D playwright`
+4. 🧪 Run the tests: `npx playwright test` || `npx playwright test --headed` || `npx playwright test --ui`
 
 ## 🔨 Setup
 
