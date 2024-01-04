@@ -45,7 +45,7 @@ test.describe('Gamdom Originals page tests', () => {
         await expect(landing.passwordInput(page)).toBeVisible();
     });
 
-    test('User can open topbar subpages @flaky', async ({ page }) => {
+    test('User can open topbar subpages', async ({ page }) => {
         await openGamdomLandingPage(page);
 
         await landing.clickOnGamdomLogo(page);
