@@ -15,6 +15,7 @@ test.describe('Gamdom Originals page tests', () => {
         await expect(landing.paymentMethodsHeader(page)).toBeVisible();
         await expect(landing.buyCryptoButton(page)).toBeVisible();
         await expect(landing.openSEOdocumentationButton(page)).toBeVisible();
+        // Next line of code that performs a chat check is commented due to the unstable behaiour of chat modal on Gamdom page
         // await expect(landing.chatContainer(page)).toBeVisible({ timeout: 20000 });
         // A lot more can be added here to check the presence of other elements...
     });
