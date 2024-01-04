@@ -8,7 +8,7 @@ To clone this repository and run the tests:
 
 1. Clone the repository: `git clone [https://github.com/darioCuc/Gamdom]` or extract it from the provided `.zip` file 📋
 2. Navigate using terminal to the repository directory: `cd ~/Users/Gamdom` 📂
-3. Install Playwright locally: `pnpm install playwright` || `npm i -D playwright` 💻
+3. Install Playwright locally: `pnpm install playwright` || `npm i -D playwright` 💻 (latest)
 4. Run the tests: `npx playwright test` || `npx playwright test --headed` || `npx playwright test --ui` 🧪
 
 
@@ -30,6 +30,9 @@ To clone this repository and run the tests:
 - 📚 Created an `Additional-testing-Files` folder, which includes:
   - `TASK1.md`: Documents the 5 key areas critical for business functionality identified during exploratory testing. 📃
   - `Bug Report - Gamdom.pdf`: Details a bug found on the Gamdom production page during exploratory testing. 🐞
+- All the tests are stored in `tests` directory and they are divided by the area/page they cover.
+- A file named `testHelpers.ts` has been added to the project and it contains functions that are reusable throughout the project. 🧰
+- POM (`Page Object Model`) has been used for project structure architecture
 
 ### Configuration
 
